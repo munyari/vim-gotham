@@ -273,3 +273,7 @@ call s:Col('NeomakeError', 'red')
 unlet s:colors
 unlet s:background
 unlet s:linenr_background
+
+" neovim terminal cursor settings
+highlight! link TermCursor Cursor
+highlight! TermCursorNC guibg=red guifg=white ctermbg=1 ctermfg=15
